@@ -47,3 +47,12 @@ yarn develop
 ```
 * You should now be running a new Gatsby site locally! 🎉
 # covid-map
+
+### Additional information
+* following the tutorial of https://morioh.com/p/575444175a09?f=5c21fb01c16e2556b555ab32&fbclid=IwAR3ZUTOuRGE_ES3eHLzRZxqIDiDast0ieDzFCDsIkGPUIGi2hVn143KqZ1w
+
+replace address https://corona.lmao.ninja/v2/countries in axios.get
+```
+response = await axios.get(‘https://corona.lmao.ninja/countries’);
+```
+
